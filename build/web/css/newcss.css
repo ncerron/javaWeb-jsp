@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding-top: 150px;
+    color:white;
+}
+
+#fondo{
+
+    background-image: url("../images/img1.2.jpg") ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#form{
+    background: white;
+    width: 300px;
+    height: 300px;
+    opacity: 0.8;
+}
+
+form{
+    width:240px;
+}
+
+p{font-size: 14px;}
+
+h3, p{
+    color:white;
+}
+
+#link { 
+    color: orange; 
+    margin-left: 8px;} 
+
+.navbar-dark{
+    background-color: #193b57!important;
+
+}
+
+
+.dropdown-menu{
+    background-color: #193b57;
+    
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #3e648496;
+    color: white;
+}
+
+
+a.dropdown-item{
+    color:#bebebe;
+  
+}
+
+.navbar-brand{
+   font-family: 'Monoton', cursive;
+   font-size: 34px;
+}
+
+.navbar-dark .navbar-brand{
+    color:#ffa500cf;
+}
+
+
+.card-body{
+    background-color: #2f5366;
+   
+}
+
+.table{
+    background-color: #193b57e0;
+    
+}
+
+/*boton abm*/
+#btn1:active {
+   box-shadow: 0 0 0 0.2rem rgba(46, 74, 98, 1);
+}
+
+#btn1 {
+    border-style: none;
+    background-color: #193b57;
+    margin-left: 5px;
+  
+}
+
+#btn_group{
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+#btn1:hover{
+    background-color: #45647d;
+}
+
+/*boton login*/
+#btn:active {
+   box-shadow: 0 0 0 0.2rem rgba(46, 74, 98, 1);
+}
+
+
+#btn:hover{
+    
+    background-color: #45647d;
+}
+
+
+#btn {
+    display: block;
+    width:100%;
+    margin: 10px 0;
+    background-color: #193b57;
+    border-style: none;
+
+}

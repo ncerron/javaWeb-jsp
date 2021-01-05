@@ -10,5 +10,3 @@ JSP, Servlets y JPA.
 ![](parque.jpg)
 [![Ver video](https://img.youtube.com/vi/gdE4MujN1ZQ/hqdefault.jpg)](https://youtu.be/gdE4MujN1ZQ)
 
-
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)

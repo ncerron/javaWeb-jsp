@@ -8,4 +8,4 @@ Realizado en IDE Netbeans 8, utilizando Boostrap en el Frontend, y en el Backend
 JSP, Servlets y JPA.
 
 ![](parque.jpg)
-![](tp.mp4)
+![](tp.mp4){width='100px'}

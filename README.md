@@ -8,4 +8,4 @@ Realizado en IDE Netbeans 8, utilizando Boostrap en el Frontend, y en el Backend
 JSP, Servlets y JPA.
 
 ![](parque.jpg)
-![Watch the video](https://img.youtube.com/vi/gdE4MujN1ZQ/hqdefault.jpg)((https://youtu.be/gdE4MujN1ZQ
+![Ver video](https://img.youtube.com/vi/gdE4MujN1ZQ/hqdefault.jpg)(https://youtu.be/gdE4MujN1ZQ)

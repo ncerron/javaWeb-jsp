@@ -40,7 +40,7 @@ public class EmpleadoServlet extends HttpServlet {
 
             int id = Integer.parseInt(idE);
             List<Juego> listaJuegos = controladora.getListaJuegos();
-
+            boolean noRelacionado = false;
             search:
             {
                 for (Juego elem : listaJuegos) {
@@ -49,19 +49,20 @@ public class EmpleadoServlet extends HttpServlet {
                         if (emp.getIdEmpleado() == id) {
                             request.setAttribute("errorMessage", "No se puede eliminar, el Empleado esta asociado a un Juego ");
                             request.getRequestDispatcher("modificacion-empleado.jsp").forward(request, response);
+                            noRelacionado=true;
                             break search;
-                        } else {
+                        } 
+                    }
 
+                }
+            }
+            if(!noRelacionado){       
                             try {
                                 controladora.eliminarEmpleado(id);
                             } catch (NonexistentEntityException ex) {
                                 Logger.getLogger(EmpleadoServlet.class.getName()).log(Level.SEVERE, null, ex);
                             }
-                            response.sendRedirect("modificacion-empleado.jsp");
-                        }
-                    }
-
-                }
+                            response.sendRedirect("modificacion-empleado.jsp");           
             }
 
         } else if (accion.equalsIgnoreCase("editarForm")) {

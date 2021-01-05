@@ -28,7 +28,7 @@
                  
                     <form action="LoginServlet"  method="post"  class="form-group">
                         <h3 class="text-center">Iniciar sesión</h3>
-                        <div style="color: orange; font-size: 18px;">${errorMessage}</div>
+                        <div style="color: orange; font-size: 18px; width: 300px;">${errorMessage}</div>
                         <input class="form-control mt-4 " type="text" name="usuario" placeholder="Usuario">
                         <input  class="form-control mt-3 " type="password" name="pass" placeholder="Contraseña">
 
